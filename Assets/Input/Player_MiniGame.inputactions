@@ -1,0 +1,45 @@
+{
+    "name": "Player_MiniGame",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "53c3e955-b205-4bcf-a9af-8c4728a04648",
+            "actions": [
+                {
+                    "name": "Flap",
+                    "type": "Button",
+                    "id": "d9185f9c-ce5f-4997-9a41-c6272e2d6418",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c1c6ef08-4cfe-4e3f-ac2d-a0388f8fa8df",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1359d693-2333-49ad-866c-a6ef2e71485b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
